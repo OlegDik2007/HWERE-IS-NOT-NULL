@@ -1,0 +1,6 @@
+SELECT user_id,
+       birth_date
+FROM   users
+WHERE  sex = 'male'
+   and birth_date is not null
+ORDER BY birth_date desc limit 50
